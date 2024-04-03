@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutDiabetesOrder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Add TextViews and other views for displaying Diabetes order details -->
+
+    <TextView
+        android:id="@+id/textItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textSize="18sp" />
+
+    <!-- Customer Email -->
+    <TextView
+        android:id="@+id/textCustomerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Email"
+        android:textSize="18sp" />
+
+    <!-- Quantity Ordered -->
+    <TextView
+        android:id="@+id/textQuantityOrdered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity Ordered"
+        android:textSize="18sp" />
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="18sp" />
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="18sp" />
+
+</LinearLayout>
